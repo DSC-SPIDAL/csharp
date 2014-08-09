@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="StyleCopLaunch" ToolsVersion="3.5">
+    <PropertyGroup>
+        <ProjectRoot>C:\sali\pti\sub\salsa\Services\SalsaTPL</ProjectRoot>
+        <StyleCopRoot>C:\sali\pti\sub\salsa\Services\SalsaTPL\.sonar\StyleCop-4.4.0.14</StyleCopRoot>
+    </PropertyGroup>
+    <UsingTask TaskName="StyleCopTask" AssemblyFile="$(StyleCopRoot)\Microsoft.StyleCop.dll"></UsingTask>
+    <ItemGroup>
+        <Project Include="C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\Salsa.DAVectorSpongeTPL.csproj"></Project>
+    </ItemGroup>
+    <Target Name="StyleCopLaunch">
+        <CreateItem Include="%(Project.RootDir)%(Project.Directory)**\*.cs">
+            <Output ItemName="SourceAnalysisFiles" TaskParameter="Include"></Output>
+        </CreateItem>
+        <StyleCopTask MaxViolationCount="-1" OverrideSettingsFile="C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\.sonar\sonar.StyleCop"
+            OutputFile="C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\.sonar\stylecop-report.xml"
+            TreatErrorsAsWarnings="true" ForceFullAnalysis="true"
+            SourceFiles="@(SourceAnalysisFiles);@(CSFile)"
+            ProjectFullPath="C:\sali\pti\sub\salsa\Services\SalsaTPL\SalsaTPL.sln"></StyleCopTask>
+    </Target>
+</Project>

@@ -1,0 +1,7 @@
+C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Release\Salsa.CoreTPL.dll
+C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Release\Salsa.CoreTPL.pdb
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.CoreTPL\obj\x64\Release\Salsa.CoreTPL.dll
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.CoreTPL\obj\x64\Release\Salsa.CoreTPL.pdb
+C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\Salsa.CoreTPL.dll
+C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\Salsa.CoreTPL.pdb
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.CoreTPL\obj\x64\Release\Salsa.CoreTPL.csprojResolveAssemblyReference.cache

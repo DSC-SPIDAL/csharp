@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Manxcat Run</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<table width="100%" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+        <td colspan="2" class="title" valign="top">
+            <h1>Manxcat Run</h1>
+            <h3>TAG:manxcat_name</h3>
+            <hr align="left">
+        </td>
+    </tr>
+    <tr>
+        <td class="content" valign="top">
+            <h3>Description</h3>
+            <p>TAG:manxcat_description</p>
+            <h3>Configuration</h3>
+<pre>
+TAG:manxcat_config
+</pre>
+        </td>
+
+        <td class="nav" valign="top" width="350">
+            <h3>Links</h3>
+            <div>TAG:manxcat_links</div>
+            
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

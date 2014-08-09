@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B9B1F4DA-18CB-41C9-BADC-A280DCE28FDB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Salsa.Core</RootNamespace>
+    <AssemblyName>Salsa.CoreTPL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Salsa.CoreTPL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\Release\Salsa.CoreTPL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Salsa.CoreTPL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\Release\Salsa.CoreTPL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bio, Version=2.0.5264.24712, Culture=neutral, PublicKeyToken=13335e9abfbf69d0, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\x86\release\Bio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arguments.cs" />
+    <Compile Include="Array64.cs" />
+    <Compile Include="Bio\Algorithms\Alignment.cs" />
+    <Compile Include="Bio\Algorithms\AlignmentType.cs" />
+    <Compile Include="Bio\Algorithms\Commons.cs" />
+    <Compile Include="Bio\Algorithms\ScoringMatrix.cs" />
+    <Compile Include="Bio\Algorithms\ScoringMatrixTokenizer.cs" />
+    <Compile Include="Bio\Algorithms\Sequence.cs" />
+    <Compile Include="Bio\Algorithms\SmithWaterman\Cell.cs" />
+    <Compile Include="Bio\Algorithms\SmithWaterman\Directions.cs" />
+    <Compile Include="Bio\Algorithms\SmithWaterman\Markups.cs" />
+    <Compile Include="Bio\Algorithms\SmithWaterman\SmithWatermanGotoh.cs" />
+    <Compile Include="Bio\Algorithms\SmithWaterman\SmithWatermanGotohException.cs" />
+    <Compile Include="Bio\IO\FastaRecord.cs" />
+    <Compile Include="Bio\IO\Parser.cs" />
+    <Compile Include="Bio\IO\Scanner.cs" />
+    <Compile Include="Blas\EigenvalueDecomposition.cs" />
+    <Compile Include="Blas\MatrixBinaryReader.cs" />
+    <Compile Include="Blas\MatrixBinaryWriter.cs" />
+    <Compile Include="Blas\MatrixTextReader.cs" />
+    <Compile Include="Blas\MatrixTextWriter.cs" />
+    <Compile Include="Blas\PartialMatrix.cs" />
+    <Compile Include="Blas\PartialMatrixBinaryReader.cs" />
+    <Compile Include="Blas\PartialMatrixBinaryWriter.cs" />
+    <Compile Include="Blas\PartialMatrixTextReader.cs" />
+    <Compile Include="Blas\PartialMatrixTextWriter.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="Block64.cs" />
+    <Compile Include="BlockPartitioner.cs" />
+    <Compile Include="BlockPartitioner64.cs" />
+    <Compile Include="CacheLineStorage.cs" />
+    <Compile Include="ArrayExtensions.cs" />
+    <Compile Include="Configuration\ConfigurationMgr.cs" />
+    <Compile Include="Blas\Matrix.cs" />
+    <Compile Include="Configuration\MacroReplacement.cs" />
+    <Compile Include="Configuration\Section.cs" />
+    <Compile Include="Configuration\Sections\DAVectorSpongeSection.cs" />
+    <Compile Include="Configuration\Sections\FileStageSection.cs" />
+    <Compile Include="Configuration\Sections\GlobalSection.cs" />
+    <Compile Include="Configuration\Sections\ManxcatSection.cs" />
+    <Compile Include="Configuration\Sections\NeedlemanWunschSection.cs" />
+    <Compile Include="Configuration\Sections\PairwiseSection.cs" />
+    <Compile Include="Configuration\Sections\SmithWatermanMS.cs" />
+    <Compile Include="Configuration\Sections\SmithWatermanSection.cs" />
+    <Compile Include="Configuration\Utility.cs" />
+    <Compile Include="OnDemandComputation.cs" />
+    <Compile Include="Range.cs" />
+    <Compile Include="Range64.cs" />
+    <Compile Include="RangePartitioner.cs" />
+    <Compile Include="RangePartitioner64.cs" />
+    <Compile Include="SpecialFunction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Blas\Vector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM100" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM30" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM35" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM40" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM45" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM50" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM55" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM60" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM62" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM65" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM70" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM75" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM80" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM85" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUM90" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\BLOSUMN" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\DAYHOFF" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\EDNAFULL" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\GONNET" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\IDENTITY" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\MATCH" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM10" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM100" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM110" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM120" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM130" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM140" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM150" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM160" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM170" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM180" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM190" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM20" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM200" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM210" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM220" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM230" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM240" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM250" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM260" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM270" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM280" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM290" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM30" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM300" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM310" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM320" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM330" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM340" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM350" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM360" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM370" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM380" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM390" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM40" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM400" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM410" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM420" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM430" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM440" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM450" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM460" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM470" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM480" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM490" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM50" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM500" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM60" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM70" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM80" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\PAM90" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\TEST1" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bio\Algorithms\Matrices\NUC44" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Manxcat\style" />
+    <EmbeddedResource Include="Web\Manxcat\template" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

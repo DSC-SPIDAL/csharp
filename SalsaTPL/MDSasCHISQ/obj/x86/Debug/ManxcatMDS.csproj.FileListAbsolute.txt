@@ -1,0 +1,6 @@
+C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\ManxcatMDS.exe.config
+C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\ManxcatMDS.exe
+C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\ManxcatMDS.pdb
+C:\sali\pti\sub\salsa\Services\SalsaTPL\MDSasCHISQ\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\sali\pti\sub\salsa\Services\SalsaTPL\MDSasCHISQ\obj\x86\Debug\ManxcatMDS.exe
+C:\sali\pti\sub\salsa\Services\SalsaTPL\MDSasCHISQ\obj\x86\Debug\ManxcatMDS.pdb

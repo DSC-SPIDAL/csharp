@@ -1,0 +1,17 @@
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\bin\Release\Salsa.SequentialSponge.exe
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\bin\Release\Salsa.SequentialSponge.pdb
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\bin\Release\HPC.Utilities.dll
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\bin\Release\Salsa.CoreTPL.dll
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\bin\Release\Bio.dll
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\bin\Release\Salsa.CoreTPL.pdb
+C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\bin\Release\Bio.pdb
+C:\Sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\obj\x86\Release\Salsa.DAVectorSpongeTPL.csprojResolveAssemblyReference.cache
+C:\Sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Release\Salsa.SequentialSponge.exe
+C:\Sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Release\Salsa.SequentialSponge.pdb
+C:\Sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\obj\x86\Release\Salsa.SequentialSponge.exe
+C:\Sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\obj\x86\Release\Salsa.SequentialSponge.pdb
+C:\Sali\git\github\DSC-SPIDAL\csharp\SalsaTPL\bin\x86\Release\Salsa.SequentialSponge.exe
+C:\Sali\git\github\DSC-SPIDAL\csharp\SalsaTPL\bin\x86\Release\Salsa.SequentialSponge.pdb
+C:\Sali\git\github\DSC-SPIDAL\csharp\SalsaTPL\Salsa.SequentialSponge\obj\x86\Release\Salsa.DAVectorSpongeTPL.csprojResolveAssemblyReference.cache
+C:\Sali\git\github\DSC-SPIDAL\csharp\SalsaTPL\Salsa.SequentialSponge\obj\x86\Release\Salsa.SequentialSponge.exe
+C:\Sali\git\github\DSC-SPIDAL\csharp\SalsaTPL\Salsa.SequentialSponge\obj\x86\Release\Salsa.SequentialSponge.pdb
