@@ -1,4 +1,0 @@
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\Salsa.NeedlemanWunschTPL.exe.config
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\Salsa.NeedlemanWunschTPL.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.NeedlemanWunschTPL\obj\x64\Release\Salsa.NeedlemanWunschTPL.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.NeedlemanWunschTPL\obj\x64\Release\Salsa.NeedlemanWunschTPL.csprojResolveAssemblyReference.cache

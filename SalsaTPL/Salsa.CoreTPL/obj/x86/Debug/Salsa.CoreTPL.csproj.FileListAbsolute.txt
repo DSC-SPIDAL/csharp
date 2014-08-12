@@ -1,5 +1,0 @@
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\Salsa.CoreTPL.dll
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\Salsa.CoreTPL.pdb
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.CoreTPL\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.CoreTPL\obj\x86\Debug\Salsa.CoreTPL.dll
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.CoreTPL\obj\x86\Debug\Salsa.CoreTPL.pdb

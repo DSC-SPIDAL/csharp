@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using HPC.Utilities;
 using MPI;
 using Salsa.Core.Configuration;
 using Salsa.Core.Configuration.Sections;
@@ -638,7 +637,8 @@ namespace Salsa.PairwiseClusteringTPL
                 OccupationCounts[ClusterCount] = LocalOccupationCounts[ClusterCount];
             }
             PWCUtility.PreciseTimer.Stop();    // temporarily stop timer
-            PWCUtility.HPDuration += PWCUtility.PreciseTimer.Duration;
+            PWCUtility.HPDuration += (((double)(PWCUtility.PreciseTimer.ElapsedTicks)) / PWCUtility.TimerFrequency) * 1000000;
+            PWCUtility.PreciseTimer.Reset();
 
             string directory = Path.GetDirectoryName(_configurationManager.PairwiseSection.ClusterFile);
             string file = Path.GetFileNameWithoutExtension(_configurationManager.PairwiseSection.ClusterFile) + "-M" + Program.maxNcent.ToString() + "-C" + Dist.RunningPWC.Ncent.ToString() + Path.GetExtension(_configurationManager.PairwiseSection.ClusterFile);

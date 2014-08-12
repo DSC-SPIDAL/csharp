@@ -2,9 +2,9 @@
 using System.Collections;
 using System.IO;
 using System.Text;
-using HPC.Utilities;
 using MPI;
 using Salsa.Core.Blas;
+using System.Diagnostics;
 using Salsa.Core;
 
 using Salsa.PairwiseClusteringTPL;
@@ -55,9 +55,10 @@ namespace SALSALibrary
         // Timing Parameters
         public static DateTime startTime;
         public static DateTime endTime;
-        public static HiPerfTimer PreciseTimer;   //    Hold Precise Timing
+        public static Stopwatch PreciseTimer;   //    Hold Precise Timing
         public static int NumberofSubTimings = 0; // Number of subtimings
-        public static HiPerfTimer[] SubTimers;   // Timing Objects
+        public static Stopwatch[] SubTimers;   // Timing Objects
+	    public static long TimerFrequency; // Frequency of stopwatches - ticks/sec
         public static double HPDuration = 0.0;    // Time with Precision
         public static double[] SubDurations;     // Hold partial timing
         public static string[] SubTimingNames;   //  Labels of partial timing
@@ -136,23 +137,23 @@ namespace SALSALibrary
         public static void InitializeTiming(int InputNumberofTimers)
         {
             NumberofSubTimings = InputNumberofTimers;
-            SubTimers = new HiPerfTimer[NumberofSubTimings]; // Timing Objects
+            SubTimers = new Stopwatch[NumberofSubTimings]; // Timing Objects
             SubDurations = new double[NumberofSubTimings];   // Hold partial timing
             SubTimingEnable = new bool[NumberofSubTimings];
             SubTimingNames = new string[NumberofSubTimings];
 
             for (int itimer = 0; itimer < NumberofSubTimings; itimer++)
             {
-                SubTimers[itimer] = new HiPerfTimer();
+                SubTimers[itimer] = new Stopwatch();
                 SubDurations[itimer] = 0.0;
                 SubTimingEnable[itimer] = true;
             }
-            PreciseTimer = new HiPerfTimer();
-            PreciseTimer.Start();
+            PreciseTimer = Stopwatch.StartNew();
 
             startTime = DateTime.Now; // Set the initial time.
+            TimerFrequency = Stopwatch.Frequency;
 
-        }                             // End InitializeTiming
+        }                             
 
         public static void SetUpSubTimer(int TimingIndex, string TimingLabel)
         {
@@ -194,8 +195,8 @@ namespace SALSALibrary
         public static void InterimTiming()
         {
             PreciseTimer.Stop();
-            HPDuration += PreciseTimer.Duration;
-            PreciseTimer.Start();
+            HPDuration += (((double)(PreciseTimer.ElapsedTicks)) / TimerFrequency) * 1000000;
+            PreciseTimer.Restart();
 
         } // end InterimTiming
 
@@ -203,7 +204,7 @@ namespace SALSALibrary
         {
             endTime = DateTime.Now; // Set the final time.
             PreciseTimer.Stop();
-            HPDuration += PreciseTimer.Duration;
+            HPDuration += (((double)(PreciseTimer.ElapsedTicks)) / TimerFrequency) * 1000000;
 
         } // end EndTiming
 
@@ -227,7 +228,8 @@ namespace SALSALibrary
             if (SubTimingEnable[TimingIndex])
             {
                 SubTimers[TimingIndex].Stop();
-                SubDurations[TimingIndex] += SubTimers[TimingIndex].Duration;
+                SubDurations[TimingIndex] += (((double)(SubTimers[TimingIndex].ElapsedTicks)) / TimerFrequency) * 1000000;
+                SubTimers[TimingIndex].Reset();
             }
 
         } // End StopSubTimer

@@ -1,6 +1,0 @@
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\Salsa.PairwiseClusteringTPL.exe.config
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\Salsa.PairwiseClusteringTPL.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\Salsa.PairwiseClusteringTPL.pdb
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.PairwiseClusteringTPL\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.PairwiseClusteringTPL\obj\x86\Debug\Salsa.PairwiseClusteringTPL.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.PairwiseClusteringTPL\obj\x86\Debug\Salsa.PairwiseClusteringTPL.pdb

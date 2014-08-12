@@ -1,6 +1,0 @@
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\ManxcatMDS.exe.config
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\ManxcatMDS.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\ManxcatMDS.pdb
-C:\sali\pti\sub\salsa\Services\SalsaTPL\MDSasCHISQ\obj\x64\Release\ManxcatMDS.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\MDSasCHISQ\obj\x64\Release\ManxcatMDS.pdb
-C:\sali\pti\sub\salsa\Services\SalsaTPL\MDSasCHISQ\obj\x64\Release\ManxcatMDS.csprojResolveAssemblyReference.cache
