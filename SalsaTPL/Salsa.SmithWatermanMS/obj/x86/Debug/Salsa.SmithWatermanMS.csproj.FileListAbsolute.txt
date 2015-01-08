@@ -1,6 +1,0 @@
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\Salsa.SmithWatermanMS.exe.config
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\Salsa.SmithWatermanMS.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x86\Debug\Salsa.SmithWatermanMS.pdb
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SmithWatermanMS\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SmithWatermanMS\obj\x86\Debug\Salsa.SmithWatermanMS.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SmithWatermanMS\obj\x86\Debug\Salsa.SmithWatermanMS.pdb

@@ -1,5 +1,0 @@
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\Salsa.SequentialSponge.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\bin\x64\Release\Salsa.SequentialSponge.pdb
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\obj\x64\Release\Salsa.SequentialSponge.exe
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\obj\x64\Release\Salsa.SequentialSponge.pdb
-C:\sali\pti\sub\salsa\Services\SalsaTPL\Salsa.SequentialSponge\obj\x64\Release\Salsa.DAVectorSpongeTPL.csprojResolveAssemblyReference.cache
